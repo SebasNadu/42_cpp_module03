@@ -1,0 +1,34 @@
+#include "ClapTrap.hpp"
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
+#include <iostream>
+
+int main(void) {
+  FragTrap a("Godzilla");
+  FragTrap b("King Kong");
+
+  b.attack(a.getName());
+  std::cout << a << std::endl;
+  a.takeDamage(5);
+  std::cout << a << std::endl;
+  a.beRepaired(5);
+  std::cout << a << std::endl;
+  a.takeDamage(10);
+  std::cout << a << std::endl;
+  a.beRepaired(100);
+  std::cout << a << std::endl;
+  std::cout << std::endl;
+  a.attack(b.getName());
+  std::cout << b << std::endl;
+  b.takeDamage(5);
+  std::cout << b << std::endl;
+  b.beRepaired(5);
+  std::cout << b << std::endl;
+  b.takeDamage(9);
+  std::cout << b << std::endl;
+  b.attack("Berlin");
+  std::cout << b << std::endl;
+  b.highFivesGuys();
+
+  return 0;
+}
