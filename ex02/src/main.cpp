@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sebasnadu <johnavar@student.42berlin.de>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/06 21:55:49 by sebasnadu         #+#    #+#             */
+/*   Updated: 2024/04/06 21:56:10 by sebasnadu        ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ClapTrap.hpp"
 #include "FragTrap.hpp"
 #include "ScavTrap.hpp"
@@ -29,6 +41,7 @@ int main(void) {
   b.attack("Berlin");
   std::cout << b << std::endl;
   b.highFivesGuys();
+  std::cout << std::endl;
 
   return 0;
 }
