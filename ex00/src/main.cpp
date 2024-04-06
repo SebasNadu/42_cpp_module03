@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sebasnadu <johnavar@student.42berlin.de>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/06 21:51:30 by sebasnadu         #+#    #+#             */
+/*   Updated: 2024/04/06 21:52:10 by sebasnadu        ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ClapTrap.hpp"
 #include <iostream>
 #include <string>
@@ -26,4 +38,7 @@ int main(void) {
   b.takeDamage(9);
   std::cout << b << std::endl;
   b.attack("Berlin");
+  std::cout << std::endl;
+
+  return 0;
 }

@@ -1,8 +1,9 @@
 #pragma once
 #include "ClapTrap.hpp"
+#include <iostream>
 #include <string>
 
-class FragTrap : public ClapTrap {
+class FragTrap : public virtual ClapTrap {
 public:
   FragTrap(void);
   FragTrap(std::string const &name);

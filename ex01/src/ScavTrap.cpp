@@ -46,3 +46,10 @@ void ScavTrap::guardGate(void) {
   std::cout << "ScavTrap " << this->_name << " has entered in Gate keeper mode"
             << std::endl;
 }
+
+std::ostream &operator<<(std::ostream &out, ScavTrap const &scav) {
+  out << "ScavTrap " << scav.getName() << " has " << scav.getHitPoints()
+      << " hit points, " << scav.getEnergyPoints() << " energy points and "
+      << scav.getAttackDamage() << " attack damage points" << std::endl;
+  return out;
+}
