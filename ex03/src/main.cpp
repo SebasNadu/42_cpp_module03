@@ -6,7 +6,7 @@
 /*   By: sebasnadu <johnavar@student.42berlin.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 21:58:45 by sebasnadu         #+#    #+#             */
-/*   Updated: 2024/04/06 22:07:38 by sebasnadu        ###   ########.fr       */
+/*   Updated: 2024/04/12 15:10:37 by johnavar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ int main(void) {
   b.attack("Berlin");
   std::cout << b << std::endl;
   b.highFivesGuys();
+  a.highFivesGuys();
 
   a = b;
   a.whoAmI();
